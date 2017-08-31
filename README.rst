@@ -1,7 +1,7 @@
 Function Dictionaries
 =====================
 
-`Find the instructions for this assignment on Frodo here <http://fellowship.hackbrightacademy.com/materials/skills/dictionaries/>`_:
+`Find the instructions for this assignment on Frodo here <http://fellowship.hackbrightacademy.com/materials/skills/dictionaries/>`_.
 
 To complete this assessment:
 
