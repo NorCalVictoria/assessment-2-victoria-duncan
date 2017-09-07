@@ -1,5 +1,5 @@
-Function Dictionaries
-=====================
+Skills Dictionaries
+===================
 
 `Find the instructions for this assignment on Frodo here <http://fellowship.hackbrightacademy.com/materials/skills/dictionaries/>`_.
 
