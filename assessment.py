@@ -82,11 +82,12 @@ def print_melon_at_price(price):
         if price == cost:
             print(melon)
         else:
-            print('None found')
+            print("None found")
+
+    print_melon_at_price(2.50)
 
 
-#print_melon_at_price(2.50)
-    #return
+
 
 
 
@@ -130,7 +131,7 @@ def translate_to_pirate_talk(phrase):
         >>> translate_to_pirate_talk("my student is not a man!")
         'me swabbie be not a man!'
     """
-phrase = []
+    new_phrase = []
     for word in phrase:
         new_phrase = phrase.pirate_talk_dict.get(word)
 
@@ -139,7 +140,7 @@ phrase = []
 
 
 #phrase = raw_input()
-print(translate_to_pirate_talk(phrase))
+    print(translate_to_pirate_talk(phrase))
 
 
 
@@ -192,11 +193,11 @@ def kids_game(names):
     good solutions here will definitely require a dictionary.
     """
     #create an empty list for the answer and a dictionary to store words & first letters
-    ans = []
+    result = []
     words = {}
 
 
-    ans.append(names.pop(0))#first name to list
+    result.append(names.pop(0))#first name to list
 
 
     for name in names:#iterate names
@@ -207,12 +208,9 @@ def kids_game(names):
 
         words[name[0]].append(name)#add name at index
 
-        #iterate words
+       #iterate words
+    return result
 
-
-
-    return result 
-    #return []
 
 #####################################################################
 # You can ignore everything below this.
